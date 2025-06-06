@@ -1,5 +1,5 @@
-MyFavTeam = str("Choose your favorite team in IPL - ")
-if MyFavTeam.lower() == "rcb" or "royal challengers bangalore":
-    print("You are a true RCB fan!")
-else:
+MyFavTeam = input(str("Choose your favorite team in IPL - "))
+if MyFavTeam.lower() != "rcb" and MyFavTeam.lower() != "royal challengers bangalore":
     print("u r dum")
+else:
+    print("u r cool")
