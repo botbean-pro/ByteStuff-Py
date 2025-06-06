@@ -1,11 +1,3 @@
 Number = int(input("Enter a number: "))
-print(Number*1)
-print(Number*2)
-print(Number*3)
-print(Number*4)
-print(Number*5)
-print(Number*6)
-print(Number*7)
-print(Number*8)
-print(Number*9)
-print(Number*10) 
+for x in range(1, 11):
+    print(f"{Number} x {x} = {Number * x}")
