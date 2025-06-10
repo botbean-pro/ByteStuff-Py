@@ -1,0 +1,12 @@
+numbers = [-23, 45, 67, -89, 12, 34, -56, 78, -90, 11]
+print("These are the numbers in the list:\n", numbers)
+numbers.pop(3)
+print("Now we are going to remove the nubmers of 4th index\n")
+print("These are the numbers in the list:\n", numbers)
+numbers.append(100)
+print("Now we are going to add the nubmer 100 to the list\n")
+print("These are the numbers in the list:\n", numbers)
+numbers.sort()
+numbers.reverse()
+print("Now we are going to sort the nubmers by desending order\n")
+print("These are the numbers in the list:\n", numbers)
